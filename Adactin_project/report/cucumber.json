@@ -1,0 +1,382 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-29T19:44:16.532Z",
+        "line": 12,
+        "name": "login function",
+        "description": "",
+        "id": "adactin-cucumber-project-feature;login-function;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 90770928300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is launching the application",
+            "match": {
+              "location": "Step_definition_automation.user_is_launching_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3398587800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is click on build 2",
+            "match": {
+              "location": "Step_definition_automation.user_is_click_on_build()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130756600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is enter \"kalpanavenkat\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kalpanavenkat\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Step_definition_automation.user_is_enter_in_username_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126167000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is enter \"jarshitha\" in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jarshitha\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Step_definition_automation.user_is_enter_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5577638100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is click on login button",
+            "match": {
+              "location": "Step_definition_automation.user_is_click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-29T19:45:56.574Z",
+        "line": 14,
+        "name": "hotel search",
+        "description": "",
+        "id": "adactin-cucumber-project-feature;hotel-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 265916200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is select location",
+            "match": {
+              "location": "Step_definition_automation.user_is_select_location()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236772900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is select hotel",
+            "match": {
+              "location": "Step_definition_automation.user_is_select_hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 244443300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is select room type",
+            "match": {
+              "location": "Step_definition_automation.user_is_select_room_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63027100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is select number of room",
+            "match": {
+              "location": "Step_definition_automation.user_is_select_number_of_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150686800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is select check in date",
+            "match": {
+              "location": "Step_definition_automation.user_is_select_check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159916000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is select check out date",
+            "match": {
+              "location": "Step_definition_automation.user_is_select_check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243053000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is select the adult per room",
+            "match": {
+              "location": "Step_definition_automation.user_is_select_the_adult_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228045700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user is select the child per room",
+            "match": {
+              "location": "Step_definition_automation.user_is_select_the_child_per_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86808400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is click on search",
+            "match": {
+              "location": "Step_definition_automation.user_is_click_on_search()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-29T19:45:58.252Z",
+        "line": 26,
+        "name": "select hotel",
+        "description": "",
+        "id": "adactin-cucumber-project-feature;select-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#radiobutton_0\"}\n  (Session info: chrome\u003d99.0.4844.82)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-9RRA1UP\u0027, ip: \u0027192.168.43.184\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63376}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b437003ce76c32fe3e3160e44cbb4ad3\n*** Element info: {Using\u003did, value\u003dradiobutton_0}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat step.Step_definition_automation.user_is_click_the_select_button(Step_definition_automation.java:98)\r\n\tat ✽.user is click the select button(file:/C:/Users/DELL/eclipse-workspace/Adactin_project/src/test/java/com/Adactin_project/login.feature/automation.feature:27)\r\n",
+              "duration": 4056600000,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "user is click the select button",
+            "match": {
+              "location": "Step_definition_automation.user_is_click_the_select_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 476200,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user is click on continue button",
+            "match": {
+              "location": "Step_definition_automation.user_is_click_on_continue_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-29T19:46:02.322Z",
+        "line": 31,
+        "name": "user is redirect to payment page",
+        "description": "",
+        "id": "adactin-cucumber-project-feature;user-is-redirect-to-payment-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#first_name\"}\n  (Session info: chrome\u003d99.0.4844.82)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-9RRA1UP\u0027, ip: \u0027192.168.43.184\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_281\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\DELL\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63376}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b437003ce76c32fe3e3160e44cbb4ad3\n*** Element info: {Using\u003did, value\u003dfirst_name}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.sendKeys(Unknown Source)\r\n\tat com.Adactin_project.Baseclass.inputText(Baseclass.java:25)\r\n\tat step.Step_definition_automation.user_is_enter_the_enter_the_firstname(Step_definition_automation.java:108)\r\n\tat ✽.user is enter the enter the firstname(file:/C:/Users/DELL/eclipse-workspace/Adactin_project/src/test/java/com/Adactin_project/login.feature/automation.feature:33)\r\n",
+              "duration": 31330900,
+              "status": "failed"
+            },
+            "line": 33,
+            "name": "user is enter the enter the firstname",
+            "match": {
+              "location": "Step_definition_automation.user_is_enter_the_enter_the_firstname()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 370400,
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "user is enter the lastname",
+            "match": {
+              "location": "Step_definition_automation.user_is_enter_the_lastname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 382600,
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "user is enter the billing address",
+            "match": {
+              "location": "Step_definition_automation.user_is_enter_the_billing_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 392000,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "user is enter the credit card number",
+            "match": {
+              "location": "Step_definition_automation.user_is_enter_the_credit_card_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 330200,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "user is enter the credit card type",
+            "match": {
+              "location": "Step_definition_automation.user_is_enter_the_credit_card_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 397300,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "user is select the exp month",
+            "match": {
+              "location": "Step_definition_automation.user_is_select_the_exp_month()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 335900,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "user is select the exp year",
+            "match": {
+              "location": "Step_definition_automation.user_is_select_the_exp_year()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 330100,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "user is click on book now",
+            "match": {
+              "location": "Step_definition_automation.user_is_click_on_book_now()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-29T19:46:02.353Z",
+        "line": 43,
+        "name": "takes screenshot",
+        "description": "",
+        "id": "adactin-cucumber-project-feature;takes-screenshot",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 624353600,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user is taking screenshot",
+            "match": {
+              "location": "Step_definition_automation.user_is_taking_screenshot()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Adactin cucumber project feature",
+    "description": "",
+    "id": "adactin-cucumber-project-feature",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/DELL/eclipse-workspace/Adactin_project/src/test/java/com/Adactin_project/login.feature/automation.feature",
+    "tags": []
+  }
+]
